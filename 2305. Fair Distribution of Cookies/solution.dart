@@ -1,3 +1,5 @@
+import 'dart:math';
+
 class Solution {
     int distributeCookies(List<int> cookies, int k) {
         if(cookies.isEmpty) return 0;     
